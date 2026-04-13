@@ -13,8 +13,8 @@ foreach ($target in $targetFolders) {
 
         foreach ($folder in $items) {
             $relativePath = $folder.FullName.Substring($rootDir.Length + 1).Replace('\', '/')
-            # Chỉ lấy các Tập tin, bỏ qua Folder rỗng bên trong
-            $children = Get-ChildItem -Path $folder.FullName | Where-Object { -not $_.PSIsContainer } | Select-Object -ExpandProperty Name
+            # ĐÃ XÓA bộ lọc "PSIsContainer". Cho phép quét lôi cổ CẢ TÊN FILE VÀ TÊN FOLDER MẸ!
+            $children = Get-ChildItem -Path $folder.FullName | Select-Object -ExpandProperty Name
 
             if ($children) {
                 $manifest[$relativePath] = @($children)
@@ -26,4 +26,4 @@ foreach ($target in $targetFolders) {
 }
 
 $manifest | ConvertTo-Json -Depth 10 | Out-File -FilePath $manifestPath -Encoding utf8
-Write-Host "Vua tao moi THANH CONG danh sach tai: $manifestPath 🚀"
+Write-Host "Da phuc hoi nguyen trang script THANH CONG: $manifestPath 🚀"

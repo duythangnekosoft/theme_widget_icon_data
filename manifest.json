@@ -80,7 +80,16 @@
                                          "turtle_sit.gif"
                                      ],
     "theme_icon":  [
-
+                       "neon_1",
+                       "neon_10",
+                       "neon_2",
+                       "neon_3",
+                       "neon_4",
+                       "neon_5",
+                       "neon_6",
+                       "neon_7",
+                       "neon_8",
+                       "neon_9"
                    ],
     "wallpapers/beaches":  [
                                "beaches_1.png",
@@ -179,7 +188,8 @@
                               "widget_small.png"
                           ],
     "status_bar_stickers":  [
-
+                                "anim_gif",
+                                "anim_json"
                             ],
     "wallpapers/abstract":  [
                                 "abstract_1.png",
@@ -571,7 +581,9 @@
                                            "9.mp4"
                                        ],
     "live_wallpapers":  [
-
+                            "fluid",
+                            "led_edge",
+                            "magical"
                         ],
     "live_wallpapers/magical/outer_space":  [
                                                 "1.mp4",
@@ -1245,10 +1257,30 @@
                                           "9.json"
                                       ],
     "wallpapers":  [
-
+                       "abstract",
+                       "animal",
+                       "anime",
+                       "beaches",
+                       "black_white",
+                       "city_scape",
+                       "cute",
+                       "dighital_art",
+                       "magical_borders",
+                       "nature",
+                       "outer_space",
+                       "quote"
                    ],
     "live_wallpapers/magical":  [
-
+                                    "abstract",
+                                    "animal",
+                                    "anime",
+                                    "beaches",
+                                    "black_white",
+                                    "city_scape",
+                                    "cute",
+                                    "nature",
+                                    "outer_space",
+                                    "quotes"
                                 ],
     "live_wallpapers/magical/abstract":  [
                                              "1.mp4",
