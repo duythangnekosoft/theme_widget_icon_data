@@ -1,7 +1,7 @@
 $rootDir = $PSScriptRoot
 $manifestPath = Join-Path $rootDir "manifest.json"
 
-$targetFolders = @("guide_app", "live_wallpapers", "status_bar_stickers", "theme_icon", "wallpapers")
+$targetFolders = @("guide_app", "live_wallpapers", "status_bar_stickers", "theme_icon", "theme_icon_2", "wallpapers")
 
 $manifest = @{}
 
