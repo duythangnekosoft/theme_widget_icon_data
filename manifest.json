@@ -1,4 +1,4 @@
-﻿{
+{
     "status_bar_stickers/anim_json":  [
                                           "1.json",
                                           "10.json",
@@ -4076,11 +4076,11 @@
                                  "ic_whatsapp.webp",
                                  "ic_YouTube.webp",
                                  "ic_zoom.webp",
-                                 "image 23.webp",
-                                 "image 24.webp",
                                  "review.webp",
                                  "theme.webp",
-                                 "wallpaper.webp"
+                                 "wallpaper.webp",
+                                 "widget_small.webp",
+                                 "widget_small2.webp"
                              ],
     "theme_icon_2/cartoon_5":  [
                                    "demo_icon.webp",
